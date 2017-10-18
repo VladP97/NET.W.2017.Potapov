@@ -15,3 +15,20 @@ c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.201
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.csprojResolveAssemblyReference.cache
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.dll
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\MSortTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\MSortTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\MSort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\MSort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSortTests\obj\Debug\MSortTests.pdb

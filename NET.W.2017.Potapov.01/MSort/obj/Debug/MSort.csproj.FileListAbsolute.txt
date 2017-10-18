@@ -2,3 +2,8 @@ c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.201
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSort\bin\Debug\MSort.pdb
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSort\obj\Debug\MSort.dll
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\MSort\obj\Debug\MSort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSort\bin\Debug\MSort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSort\bin\Debug\MSort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSort\obj\Debug\MSort.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSort\obj\Debug\MSort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\MSort\obj\Debug\MSort.pdb

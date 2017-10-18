@@ -2,3 +2,8 @@ c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.201
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\bin\Debug\QuickSort.pdb
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.dll
 c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\QuickSort\bin\Debug\QuickSort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\QuickSort\bin\Debug\QuickSort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QSort.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.pdb
