@@ -1,0 +1,4 @@
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\bin\Debug\QuickSort.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\bin\Debug\QuickSort.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\QuickSort\obj\Debug\QuickSort.pdb

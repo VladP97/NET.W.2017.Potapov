@@ -1,0 +1,10 @@
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\TestApp.exe.config
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\TestApp.exe
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\TestApp.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\QuickSort.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\QuickSort.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\obj\Debug\TestApp.exe
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\obj\Debug\TestApp.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\MSort.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.01\TestApp\bin\Debug\MSort.pdb
