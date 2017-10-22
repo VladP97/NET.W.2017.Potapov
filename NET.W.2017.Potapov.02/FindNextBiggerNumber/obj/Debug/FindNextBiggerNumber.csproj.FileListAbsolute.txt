@@ -1,0 +1,17 @@
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\FindNextBiggerNumber.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\FindNextBiggerNumber.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\obj\Debug\FindNextBiggerNumber.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\obj\Debug\FindNextBiggerNumber.pdb
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\System.ValueTuple.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\bin\Debug\System.ValueTuple.xml
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\FindNextBiggerNumber\obj\Debug\FindNextBiggerNumber.csprojResolveAssemblyReference.cache

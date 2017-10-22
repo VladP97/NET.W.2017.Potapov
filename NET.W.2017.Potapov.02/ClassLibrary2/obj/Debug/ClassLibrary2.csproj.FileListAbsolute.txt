@@ -1,0 +1,4 @@
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

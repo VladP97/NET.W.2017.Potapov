@@ -1,0 +1,15 @@
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Root.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Root.pdb
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\obj\Debug\Root.csprojResolveAssemblyReference.cache
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\obj\Debug\Root.dll
+C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\Root\obj\Debug\Root.pdb

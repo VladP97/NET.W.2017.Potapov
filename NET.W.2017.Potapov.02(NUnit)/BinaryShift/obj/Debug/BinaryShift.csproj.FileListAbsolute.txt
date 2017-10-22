@@ -1,0 +1,14 @@
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\NUnit3.TestAdapter.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\nunit.engine.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\nunit.engine.api.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\Mono.Cecil.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\Mono.Cecil.Pdb.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\Mono.Cecil.Mdb.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\Mono.Cecil.Rocks.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\BinaryShift.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\BinaryShift.pdb
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\nunit.framework.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\bin\Debug\nunit.framework.xml
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\obj\Debug\BinaryShift.csprojResolveAssemblyReference.cache
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\obj\Debug\BinaryShift.dll
+c:\users\vladp\onedrive\документы\visual studio 2017\Projects\NET.W.2017.Potapov.02(NUnit)\BinaryShift\obj\Debug\BinaryShift.pdb
