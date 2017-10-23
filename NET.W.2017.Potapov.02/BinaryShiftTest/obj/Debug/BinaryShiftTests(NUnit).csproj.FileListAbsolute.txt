@@ -1,0 +1,15 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\BinaryShiftTest.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\BinaryShiftTest.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\BinaryShift.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\nunit.framework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\BinaryShift.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\bin\Debug\nunit.framework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\obj\Debug\BinaryShiftTests(NUnit).csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\obj\Debug\BinaryShiftTest.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\BinaryShiftTest\obj\Debug\BinaryShiftTest.pdb

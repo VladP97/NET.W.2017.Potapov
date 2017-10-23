@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Root", "Root\Root.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootTests", "RootTests\RootTests.csproj", "{A9D12656-17E6-47E5-9585-E363216C5A74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryShiftTests(NUnit)", "BinaryShiftTest\BinaryShiftTests(NUnit).csproj", "{51F791BF-6AFC-46E4-970D-EBA1FE265C93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,22 @@ Global
 		{A9D12656-17E6-47E5-9585-E363216C5A74}.Release|x64.Build.0 = Release|Any CPU
 		{A9D12656-17E6-47E5-9585-E363216C5A74}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9D12656-17E6-47E5-9585-E363216C5A74}.Release|x86.Build.0 = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|ARM.Build.0 = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|x64.Build.0 = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Debug|x86.Build.0 = Debug|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|ARM.ActiveCfg = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|ARM.Build.0 = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|x64.ActiveCfg = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|x64.Build.0 = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|x86.ActiveCfg = Release|Any CPU
+		{51F791BF-6AFC-46E4-970D-EBA1FE265C93}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

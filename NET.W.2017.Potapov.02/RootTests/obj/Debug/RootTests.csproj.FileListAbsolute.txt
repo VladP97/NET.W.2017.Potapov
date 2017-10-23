@@ -15,3 +15,20 @@ C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.201
 C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.csprojResolveAssemblyReference.cache
 C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.dll
 C:\Users\vladp\OneDrive\Документы\Visual Studio 2017\Projects\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\RootTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\RootTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Root.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Root.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.02\RootTests\obj\Debug\RootTests.pdb
