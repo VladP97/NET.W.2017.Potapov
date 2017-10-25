@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCD\bin\Debug\GCD.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCD\bin\Debug\GCD.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCD\obj\Debug\GCD.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCD\obj\Debug\GCD.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCD\obj\Debug\GCD.pdb

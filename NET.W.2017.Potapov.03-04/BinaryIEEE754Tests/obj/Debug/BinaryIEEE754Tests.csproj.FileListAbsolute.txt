@@ -1,0 +1,17 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\BinaryIEEE754Tests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\BinaryIEEE754Tests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\BinaryIEEE754.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\BinaryIEEE754.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\obj\Debug\BinaryIEEE754Tests.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\obj\Debug\BinaryIEEE754Tests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754Tests\obj\Debug\BinaryIEEE754Tests.pdb

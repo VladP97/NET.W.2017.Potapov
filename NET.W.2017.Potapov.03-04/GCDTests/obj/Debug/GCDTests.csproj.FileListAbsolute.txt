@@ -1,0 +1,17 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\GCDTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\GCDTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\GCD.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\GCD.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\obj\Debug\GCDTests.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\obj\Debug\GCDTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\GCDTests\obj\Debug\GCDTests.pdb

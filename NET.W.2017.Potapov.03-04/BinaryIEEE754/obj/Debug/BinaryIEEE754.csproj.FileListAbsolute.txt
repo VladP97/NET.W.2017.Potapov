@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754\bin\Debug\BinaryIEEE754.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754\bin\Debug\BinaryIEEE754.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754\obj\Debug\BinaryIEEE754.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754\obj\Debug\BinaryIEEE754.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.03-04\BinaryIEEE754\obj\Debug\BinaryIEEE754.pdb
