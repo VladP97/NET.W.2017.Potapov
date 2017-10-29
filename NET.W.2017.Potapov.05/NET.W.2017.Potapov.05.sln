@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polynom", "Polynom\Polynom.csproj", "{AC0933CE-4335-4A40-BD04-BA80176FDDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomTests", "PolynomTests\PolynomTests.csproj", "{4644C222-636B-4E25-86AD-20BAEDA22677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArraySort", "JaggedArraySort\JaggedArraySort.csproj", "{A8B716F6-D124-4B98-B60F-3879D1B5975E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArraySortTests", "JaggedArraySortTests\JaggedArraySortTests.csproj", "{84F44ABE-58CE-443C-A056-D9397547FB06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0933CE-4335-4A40-BD04-BA80176FDDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0933CE-4335-4A40-BD04-BA80176FDDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0933CE-4335-4A40-BD04-BA80176FDDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0933CE-4335-4A40-BD04-BA80176FDDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4644C222-636B-4E25-86AD-20BAEDA22677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4644C222-636B-4E25-86AD-20BAEDA22677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4644C222-636B-4E25-86AD-20BAEDA22677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4644C222-636B-4E25-86AD-20BAEDA22677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B716F6-D124-4B98-B60F-3879D1B5975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B716F6-D124-4B98-B60F-3879D1B5975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B716F6-D124-4B98-B60F-3879D1B5975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B716F6-D124-4B98-B60F-3879D1B5975E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F44ABE-58CE-443C-A056-D9397547FB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F44ABE-58CE-443C-A056-D9397547FB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F44ABE-58CE-443C-A056-D9397547FB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F44ABE-58CE-443C-A056-D9397547FB06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\JaggedArraySort\bin\Debug\JaggedArraySort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\JaggedArraySort\bin\Debug\JaggedArraySort.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\JaggedArraySort\obj\Debug\JaggedArraySort.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\JaggedArraySort\obj\Debug\JaggedArraySort.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\JaggedArraySort\obj\Debug\JaggedArraySort.pdb
