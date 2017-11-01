@@ -42,6 +42,12 @@
   <ItemGroup>
     <Compile Include="JaggedArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortByMaxValue.cs" />
+    <Compile Include="SortByMaxValueDecrease.cs" />
+    <Compile Include="SortByMinValue.cs" />
+    <Compile Include="SortByMinValueDecrease.cs" />
+    <Compile Include="SortBySum.cs" />
+    <Compile Include="SortBySumDecrease.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

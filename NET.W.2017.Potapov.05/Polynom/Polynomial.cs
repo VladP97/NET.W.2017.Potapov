@@ -8,13 +8,35 @@ namespace Polynom
 {
     public class Polynomial
 	{
-		public int polynomialLength { get; private set; }
-		public double[] coefficients { get; private set; }
+		private int degree;
+		private double[] coefficients;
+
+		public int Degree
+		{
+			get
+			{
+				return coefficients.Length - 1;
+			}
+		}
+
+		public double this[int number]
+		{
+			get
+			{
+				if (number > degree - 1)
+				{
+					throw new ArgumentOutOfRangeException();
+				}
+				return coefficients[number];
+			}
+		}
 
 		public Polynomial(params double[] coefficients)
 		{
-			polynomialLength = coefficients.Length;
-			this.coefficients = coefficients;
+			degree = coefficients.Length;
+			this.coefficients = new double[degree];
+			Array.Copy(coefficients,this.coefficients, degree);
+			Console.WriteLine(this.coefficients);
 		}
 
 		/// <summary>
@@ -25,7 +47,7 @@ namespace Polynom
 		public double Calculate(int x)
 		{
 			double result = 0;
-			for (int i = 0; i < polynomialLength; i++)
+			for (int i = 0; i < degree; i++)
 			{
 				result += Math.Pow(x, i) * coefficients[i];
 			}
@@ -39,9 +61,9 @@ namespace Polynom
 		public override string ToString()
 		{
 			string stringResult = coefficients[0].ToString();
-			if (polynomialLength > 1)
+			if (degree > 1)
 			{
-				for (int i = 1; i < polynomialLength; i++)
+				for (int i = 1; i < degree; i++)
 				{
 					stringResult += " + " + coefficients[i].ToString() + "x^" + i.ToString();
 				}
@@ -49,44 +71,55 @@ namespace Polynom
 			return stringResult;
 		}
 
-		public static Polynomial operator +(Polynomial ob1, Polynomial ob2)
+		public static Polynomial operator +(Polynomial firstPolynom, Polynomial secondPolynom)
 		{
 			int minLength;
 			double[] coefficients;
-			if (ob1.polynomialLength > ob2.polynomialLength)
+			if (firstPolynom.degree > secondPolynom.degree)
 			{
-				minLength = ob2.polynomialLength;
-				coefficients = ob1.coefficients;
+				minLength = secondPolynom.degree;
+				coefficients = firstPolynom.coefficients;
 			}
 			else
 			{
-				minLength = ob1.polynomialLength;
-				coefficients = ob2.coefficients;
+				minLength = firstPolynom.degree;
+				coefficients = secondPolynom.coefficients;
 			}
 			for (int i = 0; i < minLength; i++)
 			{
-				coefficients[i] = ob1.coefficients[i] + ob2.coefficients[i];
+				coefficients[i] = firstPolynom.coefficients[i] + secondPolynom.coefficients[i];
 			}
 			return new Polynomial(coefficients);
 		}
 
-		public static Polynomial operator -(Polynomial ob1, Polynomial ob2)
+		/// <summary>
+		/// Summarizes coefficients of two polynomials.
+		/// </summary>
+		/// <param name="ob1">First polynom to sum.</param>
+		/// <param name="ob2">Second polynom to sum.</param>
+		/// <returns></returns>
+		public static Polynomial Add(Polynomial firstPolynom, Polynomial secondPolynom)
+		{
+			return firstPolynom + secondPolynom;
+		}
+
+		public static Polynomial operator -(Polynomial firstPolynom, Polynomial secondPolynom)
 		{
 			int minLength;
 			double[] coefficients;
-			if (ob1.polynomialLength > ob2.polynomialLength)
+			if (firstPolynom.degree > secondPolynom.degree)
 			{
-				minLength = ob2.polynomialLength;
-				coefficients = ob1.coefficients;
+				minLength = secondPolynom.degree;
+				coefficients = firstPolynom.coefficients;
 			}
 			else
 			{
-				minLength = ob1.polynomialLength;
-				coefficients = ob2.coefficients;
+				minLength = firstPolynom.degree;
+				coefficients = secondPolynom.coefficients;
 			}
 			for (int i = 0; i < minLength; i++)
 			{
-				coefficients[i] = ob1.coefficients[i] - ob2.coefficients[i];
+				coefficients[i] = firstPolynom.coefficients[i] - secondPolynom.coefficients[i];
 			}
 			for (int i = minLength; i < coefficients.Length; i++)
 			{
@@ -95,25 +128,47 @@ namespace Polynom
 			return new Polynomial(coefficients);
 		}
 
-		public static Polynomial operator *(Polynomial ob1, Polynomial ob2)
+		/// <summary>
+		/// Subtracts coefficients of two polynomials.
+		/// </summary>
+		/// <param name="firstPolynom">First polynom to sub.</param>
+		/// <param name="secondPolynom">Second polynom to sub.</param>
+		/// <returns></returns>
+		public static Polynomial Sub(Polynomial firstPolynom, Polynomial secondPolynom)
+		{
+			return firstPolynom - secondPolynom;
+		}
+
+		public static Polynomial operator *(Polynomial firstPolynom, Polynomial secondPolynom)
 		{
 			int minLength;
 			double[] coefficients;
-			if (ob1.polynomialLength > ob2.polynomialLength)
+			if (firstPolynom.degree > secondPolynom.degree)
 			{
-				minLength = ob2.polynomialLength;
-				coefficients = ob1.coefficients;
+				minLength = secondPolynom.degree;
+				coefficients = firstPolynom.coefficients;
 			}
 			else
 			{
-				minLength = ob1.polynomialLength;
-				coefficients = ob2.coefficients;
+				minLength = firstPolynom.degree;
+				coefficients = secondPolynom.coefficients;
 			}
 			for (int i = 0; i < minLength; i++)
 			{
-				coefficients[i] = ob1.coefficients[i] * ob2.coefficients[i];
+				coefficients[i] = firstPolynom.coefficients[i] * secondPolynom.coefficients[i];
 			}
 			return new Polynomial(coefficients);
+		}
+
+		/// <summary>
+		/// Multiply coefficients of two polynomials.
+		/// </summary>
+		/// <param name="firstPolynom">First polynom to multiply.</param>
+		/// <param name="secondPolynom">Second polynom to multiply.</param>
+		/// <returns></returns>
+		public static Polynomial Multiply(Polynomial firstPolynom, Polynomial secondPolynom)
+		{
+			return firstPolynom * secondPolynom;
 		}
 
 		/// <summary>
@@ -124,7 +179,7 @@ namespace Polynom
 		{
 			int hash = 1;
 			string x;
-			for (int i = 0; i < polynomialLength; i++)
+			for (int i = 0; i < degree; i++)
 			{
 				x = (coefficients[i] % 1).ToString();
 				if (x.Length > 1)
@@ -136,23 +191,31 @@ namespace Polynom
 			return hash;
 		}
 
-		public static bool operator ==(Polynomial ob1, Polynomial ob2)
+		public static bool operator ==(Polynomial firstPolynom, Polynomial secondPolynom)
 		{
-			return ob1.Equals(ob2);
+			return firstPolynom.Equals(secondPolynom);
 		}
 
-		public static bool operator !=(Polynomial ob1, Polynomial ob2)
+		public static bool operator !=(Polynomial firstPolynom, Polynomial secondPolynom)
 		{
-			return ob1.Equals(ob2) == true ? false : true;
+			return !firstPolynom.Equals(secondPolynom);
 		}
 
 		/// <summary>
 		/// Determines whether the specified object is equal to the current object.
 		/// </summary>
 		/// <returns></returns>
-		public override bool Equals(object obj)
+		public override bool Equals(object polynom)
 		{
-			return obj.GetHashCode() == GetHashCode();
+			if (ReferenceEquals(this, polynom))
+			{
+				return true;
+			}
+			if (GetType() != polynom.GetType())
+			{
+				return false;
+			}
+			return polynom.GetHashCode() == GetHashCode();
 		}
 	}
 }
