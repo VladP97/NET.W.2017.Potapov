@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\Bank\bin\Debug\Bank.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\Bank\bin\Debug\Bank.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\Bank\obj\Debug\Bank.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\Bank\obj\Debug\Bank.pdb

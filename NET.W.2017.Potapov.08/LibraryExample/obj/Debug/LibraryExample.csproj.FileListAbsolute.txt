@@ -1,0 +1,8 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\bin\Debug\LibraryExample.exe.config
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\bin\Debug\LibraryExample.exe
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\bin\Debug\LibraryExample.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\bin\Debug\Library.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\bin\Debug\Library.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\obj\Debug\LibraryExample.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\obj\Debug\LibraryExample.exe
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.POtapov.08\LibraryExample\obj\Debug\LibraryExample.pdb
