@@ -49,7 +49,7 @@ namespace Bank
 			}
 			private set
 			{
-				balance = Balance;			
+				balance = value;			
 			}
 
 		} 
@@ -62,7 +62,7 @@ namespace Bank
 			}
 			private set
 			{
-				bonus = Bonus;
+				bonus = value;
 			}
 		}
 
@@ -71,6 +71,14 @@ namespace Bank
 			get
 			{
 				return accountType.ToString();
+			}
+		}
+
+		public BonusAlgorithm BonusAlgorithm
+		{
+			set
+			{
+				bonusAlgorithm = value;
 			}
 		}
 
