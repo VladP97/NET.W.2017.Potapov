@@ -2,4 +2,3 @@ D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\Polynom\bin\Debug\Polynom.d
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\Polynom\bin\Debug\Polynom.pdb
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\Polynom\obj\Debug\Polynom.dll
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\Polynom\obj\Debug\Polynom.pdb
-D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.05\Polynom\obj\Debug\Polynom.csprojResolveAssemblyReference.cache

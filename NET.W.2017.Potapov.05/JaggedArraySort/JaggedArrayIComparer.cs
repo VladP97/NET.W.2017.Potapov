@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 
 namespace JaggedArraySort
 {
-    public static class JaggedArray
+	public class JaggedArrayIComparer: IComparer<int[]>
 	{
-		public delegate bool Expression(int[] x, int[] y);
+		public delegate int Expression(int[] x, int[] y);
+		private Expression expression;
+
+		private JaggedArrayIComparer(Expression expression)
+		{
+			this.expression = expression;
+		}
 
 		/// <summary>
-		/// Sorts array by Linq expression.
+		/// Sorts array by IComparer expression.
 		/// </summary>
 		/// <param name="array">Array to sort.</param>
-		/// <param name="exp">Sorting criteria.</param>
-		public static void Sort(int[][] array, Expression exp)
+		/// <param name="exp">IComparer object.</param>
+		public static void Sort(int[][] array, IComparer<int[]> exp)
 		{
 			if (array == null)
 			{
@@ -29,7 +35,7 @@ namespace JaggedArraySort
 					{
 						throw new NullReferenceException();
 					}
-					if (exp(array[j], array[j + 1]))
+					if (0 < exp.Compare(array[j], array[j + 1]))
 					{
 						Swap(ref array[j], ref array[j + 1]);
 					}
@@ -38,13 +44,18 @@ namespace JaggedArraySort
 		}
 
 		/// <summary>
-		/// Sorts array by IComparer expression.
+		/// Sorts array by Linq expression.
 		/// </summary>
 		/// <param name="array">Array to sort.</param>
-		/// <param name="exp">IComparer object.</param>
-		public static void Sort(int[][] array, IComparer<int[]> exp)
+		/// <param name="exp">Sorting criteria.</param>
+		public static void Sort(int[][] array, Expression exp)
 		{
-			Sort(array, new Expression((a, b) => 0 < exp.Compare(a, b)));
+			Sort(array, new JaggedArrayIComparer(exp));
+		}
+
+		public int Compare(int[] obj1, int[] obj2)
+		{
+			return expression(obj1, obj2);
 		}
 
 		private static void Swap(ref int[] array1, ref int[] array2)
@@ -53,5 +64,5 @@ namespace JaggedArraySort
 			array1 = array2;
 			array2 = arrayCopy;
 		}
-    }
+	}
 }

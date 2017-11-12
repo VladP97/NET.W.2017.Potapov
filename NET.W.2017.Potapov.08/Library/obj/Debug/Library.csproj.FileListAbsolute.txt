@@ -2,3 +2,4 @@ D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.08\Library\bin\Debug\Library.d
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.08\Library\bin\Debug\Library.pdb
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.08\Library\obj\Debug\Library.dll
 D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.08\Library\obj\Debug\Library.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.08\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

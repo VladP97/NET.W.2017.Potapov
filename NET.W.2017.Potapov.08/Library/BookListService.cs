@@ -12,7 +12,7 @@ namespace Library
 		private static Book CreateBook(string streamReaderString)
 		{
 			string[] paramsArray = streamReaderString.Split(' ');
-			return new Book(int.Parse(paramsArray[0]), paramsArray[1], paramsArray[2], paramsArray[3], int.Parse(paramsArray[4]), int.Parse(paramsArray[5]), decimal.Parse(paramsArray[6]));
+			return new Book(paramsArray[0], paramsArray[1], paramsArray[2], paramsArray[3], int.Parse(paramsArray[4]), int.Parse(paramsArray[5]), decimal.Parse(paramsArray[6]));
 		}
 
 		private static List<Book> ReturnBooksList(BinaryReader br)

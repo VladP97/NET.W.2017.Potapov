@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JaggedArray.cs" />
+    <Compile Include="JaggedArrayIComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortByMaxValue.cs" />
     <Compile Include="SortByMaxValueDecrease.cs" />

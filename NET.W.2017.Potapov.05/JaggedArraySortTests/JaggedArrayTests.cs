@@ -285,5 +285,131 @@ namespace JaggedArraySort.Tests
 				}
 			}
 		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortBySumDecreaseTestJaggedArrayIComparer()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, (a, b) => b.Sum() - a.Sum());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Sum() < jaggedArray[i + 1].Sum())
+				{
+					Assert.Fail();
+				}
+			}
+		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortBySumIncreaseTestJaggedArrayIComparer()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, (a, b) => a.Sum() - b.Sum());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Sum() > jaggedArray[i + 1].Sum())
+				{
+					Assert.Fail();
+				}
+			}
+		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortByMaxDecreaseTestJaggedArrayIComparer()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, (a, b) => b.Max() - a.Max());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Sum() < jaggedArray[i + 1].Sum())
+				{
+					Assert.Fail();
+				}
+			}
+		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortByMaxIncreaseTestJaggedArrayIComparer()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, (a, b) => a.Max() - b.Max());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Max() > jaggedArray[i + 1].Max())
+				{
+					Assert.Fail();
+				}
+			}
+		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortBySumIncreaseTestJaggedArrayIComparerInterface()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, new SortBySum());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Sum() > jaggedArray[i + 1].Sum())
+				{
+					Assert.Fail();
+				}
+			}
+		}
+
+		[TestMethod()]
+		public void JaggedArrayTest_SortBySumDecreaseTestJaggedArrayIComparerInterface()
+		{
+			int[][] jaggedArray = new int[5][];
+			jaggedArray[0] = new int[3] { 1, 5, 6 };
+			jaggedArray[1] = new int[4] { 1, 5, 1, 7 };
+			jaggedArray[2] = new int[3] { 11, 25, 16 };
+			jaggedArray[3] = new int[3] { 0, 0, 0 };
+			jaggedArray[4] = new int[3] { 1, -5, 6 };
+
+			JaggedArrayIComparer.Sort(jaggedArray, new SortBySumDecrease());
+
+			for (int i = 0; i < jaggedArray.Length - 1; i++)
+			{
+				if (jaggedArray[i].Sum() < jaggedArray[i + 1].Sum())
+				{
+					Assert.Fail();
+				}
+			}
+		}
 	}
 }
