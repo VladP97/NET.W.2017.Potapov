@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Reflection;
-using System.Globalization;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Library
 {
-    public class Book: IEquatable<Book>, IComparable<Book>, IParamsStringFormatter
+    public class Book : IEquatable<Book>, IComparable<Book>, IFormattable
     {
 		private string isbn;
 		private string author;
@@ -17,6 +17,17 @@ namespace Library
 		private int publishYear;
 		private int pageCount;
 		private decimal price;
+
+		public Book(string isbn, string author, string title, string publisher, int publishYear, int pageCount, decimal price)
+		{
+			this.isbn = isbn;
+			this.author = author;
+			this.title = title;
+			this.publisher = publisher;
+			this.publishYear = publishYear;
+			this.pageCount = pageCount;
+			this.price = price;
+		}
 
 		public string ISBN
 		{
@@ -74,52 +85,46 @@ namespace Library
 			}
 		}
 
-		public Book(string isbn, string author, string title, string publisher, int publishYear, int pageCount, decimal price)
-		{
-			this.isbn = isbn;
-			this.author = author;
-			this.title = title;
-			this.publisher = publisher;
-			this.publishYear = publishYear;
-			this.pageCount = pageCount;
-			this.price = price;
-		}
-
 		public override string ToString()
 		{
 			return ISBN + " " + Author + " " + Title + " " + Publisher + " " + PublishYear + " " + PageCount + " " + Price;
 		}
 
-		public string ToString(params string[] paramsToGenerateString)
+		public string ToString(string format, IFormatProvider provider = null)
 		{
-			if (paramsToGenerateString == null)
-			{
-				throw new NullReferenceException();
-			}
-			FieldInfo[] classFields = typeof(Book).GetFields(BindingFlags.NonPublic | BindingFlags.Instance);
+			if (string.IsNullOrEmpty(format)) { format = "ALL"; }
+			if (provider == null) { provider = CultureInfo.CurrentCulture; }
+			if (format.ToUpper() == "ALL")
+				return ToString();
+			string[] formatList = format.Split(' ');
 			string result = "";
-			for (int i = 0; i < classFields.Length; i++)
+			for (int i = 0; i < formatList.Length; i++)
 			{
-				for (int j = 0; j < paramsToGenerateString.Length; j++)
+				switch (formatList[i].ToUpper())
 				{
-					if (classFields[i].Name == paramsToGenerateString[j])
-					{
-						if (classFields[i].Name == "price")
-						{
-							result += string.Format(new CultureInfo("en-US"), "{0:C2}", classFields[i].GetValue(this));
-						}
-						else
-						{
-							result += classFields[i].GetValue(this).ToString() + " ";
-						}
-					}
+					case "AUTHOR":
+						result += Author;
+						break;
+					case "ISBN":
+						result += ISBN;
+						break;
+					case "TITLE":
+						result += Title;
+						break;
+					case "PUBLISHER":
+						result += Publisher;
+						break;
+					case "YEAR":
+						result += PublishYear.ToString();
+						break;
+					case "PAGES":
+						result += PageCount.ToString();
+						break;
+					case "PRICE":
+						result += Price.ToString();
+						break;
 				}
 			}
-			if (result == "")
-			{
-				throw new ArgumentException();
-			}
-			result.Remove(result.Length - 1, 1);
 			return result;
 		}
 

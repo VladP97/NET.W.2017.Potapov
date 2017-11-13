@@ -6,21 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-	public interface IAccountType
+	public interface IBonusAlgorithm
 	{
-		string Type
-		{
-			get;
-		}
+		int IncreaseBonus(decimal sum, int increaseBonus);
 
-		int BonusIncrease
-		{
-			get;
-		}
-
-		int BonusDecrease
-		{
-			get;
-		}
+		int DecreaseBonus(decimal sum, int decreaseBonus);
 	}
 }

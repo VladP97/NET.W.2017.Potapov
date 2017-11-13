@@ -14,8 +14,7 @@ namespace Bank
 		private string lastname;
 		private decimal balance;
 		private int bonus;
-		private IAccountType accountType;
-		private BonusAlgorithm bonusAlgorithm = new StandartBonusAlgorithm();
+		private AccountType accountType;
 
 		public int AccountNumber
 		{
@@ -74,15 +73,7 @@ namespace Bank
 			}
 		}
 
-		public BonusAlgorithm BonusAlgorithm
-		{
-			set
-			{
-				bonusAlgorithm = value;
-			}
-		}
-
-		public Account(int accountNumber, string firstname, string lastname, decimal balance, IAccountType accountType, int bonus = 0)
+		public Account(int accountNumber, string firstname, string lastname, decimal balance, AccountType accountType, int bonus = 0)
 		{
 			this.accountNumber = accountNumber;
 			this.firstname = firstname;
@@ -90,17 +81,7 @@ namespace Bank
 			this.balance = balance;
 			this.accountType = accountType;
 			this.bonus = bonus;
-		}
-
-		public Account(int accountNumber, string firstname, string lastname, decimal balance, IAccountType accountType, BonusAlgorithm bonusAlgorithm, int bonus = 0)
-		{
-			this.accountNumber = accountNumber;
-			this.firstname = firstname;
-			this.lastname = lastname;
-			this.balance = balance;
 			this.accountType = accountType;
-			this.bonus = bonus;
-			this.bonusAlgorithm = bonusAlgorithm;
 		}
 
 		/// <summary>
@@ -110,7 +91,7 @@ namespace Bank
 		public void ReplenishBalance(decimal sum)
 		{
 			balance += sum;
-			bonus += bonusAlgorithm.IncreaseBonus(accountType.BonusIncrease, sum);
+			bonus += accountType.IncreaseBonus(sum);
 		}
 
 		/// <summary>
@@ -120,7 +101,7 @@ namespace Bank
 		public void WithdrawMoney(decimal sum)
 		{
 			balance -= sum;
-			bonus -= bonusAlgorithm.DecreaseBonus(accountType.BonusDecrease, sum);
+			bonus -= accountType.DecreaseBonus(sum);
 		}
 
 		/// <summary>

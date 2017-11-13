@@ -7,34 +7,15 @@ using System.Threading.Tasks;
 namespace Bank
 {
 	[Serializable]
-	public class GoldAccount: IAccountType
+	public class GoldAccount : AccountType
 	{
 		private string type = "Gold";
-		private int bonusIncrease = 15;
-		private int bonusDecrease = 5;
 
-		public string Type
+		public GoldAccount(IBonusAlgorithm algorithm)
 		{
-			get
-			{
-				return type;
-			}
-		}
-
-		public int BonusIncrease
-		{
-			get
-			{
-				return bonusIncrease;
-			}
-		}
-
-		public int BonusDecrease
-		{
-			get
-			{
-				return bonusDecrease;
-			}
+			this.algorithm = algorithm;
+			bonusDecrease = 10;
+			bonusIncrease = 15;
 		}
 
 		public override string ToString()

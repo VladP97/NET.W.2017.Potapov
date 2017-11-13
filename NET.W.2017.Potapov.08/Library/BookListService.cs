@@ -7,67 +7,79 @@ using System.IO;
 
 namespace Library
 {
-	public static class BookListService
+	public class BookListService : IStorage<Book>
 	{
+		private List<Book> storage;
+
+		public BookListService()
+		{
+			storage = new List<Book>();
+		}
+
+		public BookListService(IEnumerable<Book> storage)
+		{
+			this.storage = new List<Book>(storage);
+		}
+
+		public BookListService(string path)
+		{
+			storage = new List<Book>();
+			using (BinaryReader br = new BinaryReader(new FileStream(path, FileMode.OpenOrCreate)))
+			{
+				while (br.PeekChar() != -1)
+				{
+					storage.Add(CreateBook(br.ReadString()));
+				}
+			}
+		}
+
 		private static Book CreateBook(string streamReaderString)
 		{
 			string[] paramsArray = streamReaderString.Split(' ');
 			return new Book(paramsArray[0], paramsArray[1], paramsArray[2], paramsArray[3], int.Parse(paramsArray[4]), int.Parse(paramsArray[5]), decimal.Parse(paramsArray[6]));
 		}
 
-		private static List<Book> ReturnBooksList(BinaryReader br)
-		{
-			List<Book> bookListStorage = new List<Book>();
-			while (br.PeekChar() != -1)
-			{
-				bookListStorage.Add(CreateBook(br.ReadString()));
-			}
-			br.Close();
-			return bookListStorage;
-		}
-
 		/// <summary>
 		/// Adds new book to storage.
 		/// </summary>
 		/// <param name="book">Book to add.</param>
-		public static void AddBook(Book book, ICollection<Book> bookListStorage)
+		public void AddElement(Book book)
 		{
 			if (book == null)
 			{
 				throw new NullReferenceException();
-			}
-			
-			if (bookListStorage.Contains(book))
+			}		
+			if (storage.Contains(book))
 			{
 				throw new ArgumentException();
 			}
-			bookListStorage.Add(book);
+			storage.Add(book);
 		}
 
 		/// <summary>
 		/// Removes book from storage.
 		/// </summary>
 		/// <param name="book">Book to remove</param>
-		public static void RemoveBook(Book book, ICollection<Book> bookListStorage)
+		public void RemoveElement(Book book)
 		{
 			if (book == null)
 			{
 				throw new NullReferenceException();
 			}
-			if (!bookListStorage.Contains(book))
+			if (!storage.Contains(book))
 			{
 				throw new ArgumentException();
 			}
-			bookListStorage.Remove(book);
+			storage.Remove(book);
 		}
 
 		/// <summary>
 		/// Sorts storage by criteria.
 		/// </summary>
 		/// <param name="criteria">Object inherited from IComparer interface.</param>
-		public static void SortBooksByTag(IComparer<Book> criteria, List<Book> bookListStorage)
+		public void SortElementsByTag(IComparer<Book> criteria)
 		{
-			bookListStorage.Sort(criteria);
+			storage.Sort(criteria);
 		}
 
 		/// <summary>
@@ -75,31 +87,44 @@ namespace Library
 		/// </summary>
 		/// <param name="criteria">Object inherited from ICompareWithCriteria interface.</param>
 		/// <returns>List of Book objects selected by criteria.</returns>
-		public static List<Book> SearchBooksByTag(ICompareWithCriteria<Book> criteria, ICollection<Book> bookListStorage)
+		public IEnumerable<Book> SearchElementByTag(ICompareWithCriteria<Book> criteria)
 		{
 			List<Book> selectedBooks = new List<Book>();
-			foreach (var book in bookListStorage)
+			foreach (var book in storage)
 			{
 				if (criteria.Compare(book))
 				{
-					selectedBooks.Add(book);
+					yield return book;
 				}
 			}
-			return selectedBooks;
+		}
+
+		public Book SearchFirstElementByTag(ICompareWithCriteria<Book> criteria)
+		{
+			List<Book> selectedBooks = new List<Book>();
+			foreach (var book in storage)
+			{
+				if (criteria.Compare(book))
+				{
+					return book;
+				}
+			}
+			return null;
 		}
 
 		/// <summary>
 		/// Saves books from storage to List.
 		/// </summary>
 		/// <returns>List of Book object.</returns>
-		public static void SaveToBookBinaryFile(string path, ICollection<Book> bookListStorage)
+		public void SaveElementToFile(string path)
 		{
-			BinaryWriter br = new BinaryWriter(new FileStream(path, FileMode.OpenOrCreate));
-			foreach (var book in bookListStorage)
+			using (BinaryWriter bw = new BinaryWriter(new FileStream(path, FileMode.OpenOrCreate)))
 			{
-				br.Write(book.ToString());
+				foreach (var book in storage)
+				{
+					bw.Write(book.ToString());
+				}
 			}
-			br.Close();
 		}
 	}
 }
