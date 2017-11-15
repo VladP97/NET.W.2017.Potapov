@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -18,6 +19,8 @@ namespace Library
 		private int pageCount;
 		private decimal price;
 
+		public Logger log;
+
 		public Book(string isbn, string author, string title, string publisher, int publishYear, int pageCount, decimal price)
 		{
 			this.isbn = isbn;
@@ -27,6 +30,7 @@ namespace Library
 			this.publishYear = publishYear;
 			this.pageCount = pageCount;
 			this.price = price;
+			log.Trace("New object created");
 		}
 
 		public string ISBN
@@ -92,10 +96,14 @@ namespace Library
 
 		public string ToString(string format, IFormatProvider provider = null)
 		{
-			if (string.IsNullOrEmpty(format)) { format = "ALL"; }
+			log.Trace($"String format {format}");
+			if (string.IsNullOrEmpty(format))
+			{
+				log.Warn("Format string is Null or Empty");
+				format = "ALL";
+			}
 			if (provider == null) { provider = CultureInfo.CurrentCulture; }
-			if (format.ToUpper() == "ALL")
-				return ToString();
+			if (format.ToUpper() == "ALL") { return ToString(); }
 			string[] formatList = format.Split(' ');
 			string result = "";
 			for (int i = 0; i < formatList.Length; i++)
@@ -125,6 +133,7 @@ namespace Library
 						break;
 				}
 			}
+			log.Trace($"Result {result}");
 			return result;
 		}
 

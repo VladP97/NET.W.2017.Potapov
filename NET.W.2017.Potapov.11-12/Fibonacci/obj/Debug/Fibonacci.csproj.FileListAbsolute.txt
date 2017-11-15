@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Fibonacci\bin\Debug\Fibonacci.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Fibonacci\bin\Debug\Fibonacci.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Fibonacci\obj\Debug\Fibonacci.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Fibonacci\obj\Debug\Fibonacci.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Fibonacci\obj\Debug\Fibonacci.pdb

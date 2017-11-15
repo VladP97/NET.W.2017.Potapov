@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Library
 	public class BookListService : IStorage<Book>
 	{
 		private List<Book> storage;
+
+		public Logger log;
 
 		public BookListService()
 		{
@@ -25,9 +28,10 @@ namespace Library
 		{
 			storage = new List<Book>();
 			using (BinaryReader br = new BinaryReader(new FileStream(path, FileMode.OpenOrCreate)))
-			{
+			{				
 				while (br.PeekChar() != -1)
 				{
+					log.Debug("Reading books from binary file");
 					storage.Add(CreateBook(br.ReadString()));
 				}
 			}
@@ -47,10 +51,12 @@ namespace Library
 		{
 			if (book == null)
 			{
+				log.Error(new NullReferenceException());
 				throw new NullReferenceException();
 			}		
 			if (storage.Contains(book))
 			{
+				log.Error(new NullReferenceException(), "Attempt to add existing book");
 				throw new ArgumentException();
 			}
 			storage.Add(book);
@@ -64,10 +70,12 @@ namespace Library
 		{
 			if (book == null)
 			{
+				log.Error(new NullReferenceException());
 				throw new NullReferenceException();
 			}
 			if (!storage.Contains(book))
 			{
+				log.Error(new NullReferenceException(), "Attempt to remove nonexistent book");
 				throw new ArgumentException();
 			}
 			storage.Remove(book);

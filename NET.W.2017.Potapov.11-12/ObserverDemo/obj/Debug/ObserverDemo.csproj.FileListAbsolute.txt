@@ -1,0 +1,10 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\ObserverDemo.exe.config
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\ObserverDemo.exe
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\ObserverDemo.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\Observer.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\Observer.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\obj\Debug\ObserverDemo.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\obj\Debug\ObserverDemo.exe
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\obj\Debug\ObserverDemo.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\ObserverDemo.exe.CodeAnalysisLog.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\ObserverDemo\bin\Debug\ObserverDemo.exe.lastcodeanalysissucceeded

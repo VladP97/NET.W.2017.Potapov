@@ -1,0 +1,5 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibrary\bin\Debug\BinarySearchLibrary.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibrary\bin\Debug\BinarySearchLibrary.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibrary\obj\Debug\BinarySearchLibrary.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibrary\obj\Debug\BinarySearchLibrary.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibrary\obj\Debug\BinarySearchLibrary.pdb

@@ -1,0 +1,4 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Observer\bin\Debug\Observer.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Observer\bin\Debug\Observer.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Observer\obj\Debug\Observer.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\Observer\obj\Debug\Observer.pdb

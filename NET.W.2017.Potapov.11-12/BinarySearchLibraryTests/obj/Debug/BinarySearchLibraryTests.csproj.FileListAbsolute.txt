@@ -1,0 +1,17 @@
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\BinarySearchLibraryTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\BinarySearchLibraryTests.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\BinarySearchLibrary.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\BinarySearchLibrary.pdb
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\obj\Debug\BinarySearchLibraryTests.csprojResolveAssemblyReference.cache
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\obj\Debug\BinarySearchLibraryTests.dll
+D:\ЕРАТ\NET.W.2017.Potapov\NET.W.2017.Potapov.11-12\BinarySearchLibraryTests\obj\Debug\BinarySearchLibraryTests.pdb
