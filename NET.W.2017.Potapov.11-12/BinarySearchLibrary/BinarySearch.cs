@@ -6,42 +6,52 @@ using System.Threading.Tasks;
 
 namespace BinarySearchLibrary
 {
-    public static class BinarySearch<T1, T2>
+    public static class BinarySearch<T>
     {
-		public static int Search(T1 array, T2 valueToSearch)
+		public static int Search(T[] array, T valueToSearch)
 		{
 			int index = -1;
-			if (array.GetType().IsArray)
-			{
-				index = SearchArray(array, valueToSearch);
-			}
-			else if (array is ICollection<T2>)
-			{
-				index = ToArray(array, valueToSearch);
-			}
+		    index = SearchArray(array, valueToSearch);
 			return index;
 		}
 
-		private static int SearchArray(dynamic array, dynamic valueToSearch)
+        private static bool IsSorted(dynamic array)
+        {
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                Console.WriteLine(array[i]);
+                if (array[i] > array[i + 1])
+                {
+                    Console.WriteLine('q');
+                    return false;
+                }
+            }
+            return true;
+        }
+
+		private static int SearchArray(T[] array, T valueToSearch)
 		{
 			dynamic[] newArray = new dynamic[array.Length - 1];
+            if (!IsSorted(array))
+            {
+                throw new ArgumentException();
+            }
 			for (int i = 0; i < newArray.Length; i++)
 			{
 				newArray[i] = array[i];
 			}
-			Array.Sort(newArray);
 			try
 			{
-				while (valueToSearch != newArray[(int)newArray.Length / 2])
+				while (valueToSearch != newArray[newArray.Length / 2])
 				{
-					if (newArray[(int)newArray.Length / 2] > valueToSearch)
+					if (newArray[newArray.Length / 2] > valueToSearch)
 					{
-						Array.Resize(ref newArray, (int)newArray.Length / 2);
+						Array.Resize(ref newArray, newArray.Length / 2);
 					}
 					else
 					{
 						Array.Reverse(newArray);
-						Array.Resize(ref newArray, (int)newArray.Length / 2); ;
+						Array.Resize(ref newArray, newArray.Length / 2); ;
 						Array.Reverse(newArray);
 					}
 				}
@@ -50,24 +60,7 @@ namespace BinarySearchLibrary
 			{
 				return -1;
 			}
-			return (int)newArray.Length / 2;
+			return newArray.Length / 2;
 		}
-
-		private static int ToArray(dynamic array, dynamic valueToSearch)
-		{
-			if (array is List<T2>)
-			{
-				var newArray = array.ToArray();
-				return SearchArray(newArray, valueToSearch);
-			}
-			if (array is HashSet<T2>)
-			{
-				var newArray = new T2[array.Count];
-				array.CopyTo(newArray);
-				return SearchArray(newArray, valueToSearch);
-			}
-			return -1;
-		}
-
 	}
 }
