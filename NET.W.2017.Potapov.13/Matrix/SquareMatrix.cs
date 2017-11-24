@@ -6,31 +6,42 @@ using System.Threading.Tasks;
 
 namespace Matrix
 {
-	public class SquareMatrix<T> : IMatrix<T>
+	public class SquareMatrix<T> : BaseMatrix<T>
 	{
-		protected int size;
-		public T[,] matrix;
+		public T[] elems;
 
-		public int Size
-		{
-			get { return size; }
-		}
+        public override T[,] Matrix
+        {
+            get
+            {
+                T[,] matrix = new T[size, size];
+                int k = 0;
+                for (int i = 0; i < size; i++)
+                {
+                    for (int j = 0; j < size; j++)
+                    {
+                        matrix[i, j] = elems[k];
+                        k++;
+                    }
+                }
+                return matrix;
+            }
+            set
+            {
 
-		public T[,] Matrix
-		{
-			get { return matrix; }
-		}
+            }
+        }
 
-		public T this[int i, int j]
+		public new  T this[int i, int j]
 		{
 			get
 			{
-				return matrix[i, j];
+				return Matrix[i, j];
 			}
 			set
 			{
 				changeAction();
-				matrix[i, j] = value;
+				Matrix[i, j] = value;
 			}
 		}
 
@@ -48,23 +59,7 @@ namespace Matrix
 		public SquareMatrix(int size, params T[] matrixElements)
 		{
 			this.size = size;
-			matrix = new T[size, size];
-			int k = 0;
-			try
-			{
-				for (int i = 0; i < size; i++)
-				{
-					for (int j = 0; j < size; j++)
-					{
-						matrix[i, j] = matrixElements[k];
-						k++;
-					}
-				}
-			}
-			catch(IndexOutOfRangeException)
-			{
-				return;
-			}
+            elems = matrixElements;
 		}
 	}
 }

@@ -6,32 +6,41 @@ using System.Threading.Tasks;
 
 namespace Matrix
 {
-	public class DiagonalMatrix<T> : IMatrix<T>
+	public class DiagonalMatrix<T> : BaseMatrix<T>
 	{
-		protected int size;
-		public T[,] matrix;
+		
+		protected T[] diagonal;
 
-		public int Size
+		public override T[,] Matrix
 		{
-			get { return size; }
+			get
+            {
+                T[,] matrix = new T[size, size];
+                for (int i = 0; i < size; i++)
+                {
+                    matrix[i, i] = diagonal[i];
+                }
+                return matrix;
+            }
 		}
 
-		public T[,] Matrix
-		{
-			get { return matrix; }
-		}
-
-		public T this[int i, int j]
+		public new T this[int i, int j]
 		{
 			get
 			{
-				return matrix[i, j];
+                if (i != j)
+                {
+                    return default(T);
+                }
+				return Matrix[i, j];
 			}
-			set
-			{
-				changeAction();
-				matrix[i, j] = value;
-			}
+            set
+            {
+                if (i == j)
+                {
+                    diagonal[i] = value;
+                }
+            }
 		}
 
 		public Action ChangeAction
@@ -45,21 +54,10 @@ namespace Matrix
 			Console.WriteLine("Value in matrix was changed.");
 		};
 
-		public DiagonalMatrix(int size, params T[] matrixElements)
+		public DiagonalMatrix(params T[] diagonal)
 		{
-			this.size = size;
-			matrix = new T[size, size];
-			if (size == matrixElements.Length)
-			{
-				for (int i = 0; i < size; i++)
-				{
-					matrix[i, i] = matrixElements[i];
-				}
-			}
-			else
-			{
-				throw new ArgumentException();
-			}
+			size = diagonal.Length;
+            this.diagonal = diagonal;
 		}
-	}
+    }
 }

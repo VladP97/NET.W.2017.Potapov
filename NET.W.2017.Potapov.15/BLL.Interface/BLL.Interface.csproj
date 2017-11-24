@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A7E91412-5323-4ADB-AD14-13CB48ECBBEF}</ProjectGuid>
+    <ProjectGuid>{1B2D5675-D8C7-4295-AA6C-A0D7B7B8909E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Matrix</RootNamespace>
-    <AssemblyName>Matrix</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>BLL.Interface</RootNamespace>
+    <AssemblyName>BLL.Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiagonalMatrix.cs" />
-    <Compile Include="IMatrixAddition.cs" />
-    <Compile Include="BaseMatrix.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\AccountNumberCreator.cs" />
+    <Compile Include="Entities\AccountType.cs" />
+    <Compile Include="Entities\Base.cs" />
+    <Compile Include="Entities\Gold.cs" />
+    <Compile Include="Entities\StandartBonusAlgorithm.cs" />
+    <Compile Include="Interfaces\IAccountNumberCreateService.cs" />
+    <Compile Include="Interfaces\IAccountService.cs" />
+    <Compile Include="Interfaces\IBonusAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SquareMatrix.cs" />
-    <Compile Include="SymmetricMatrix.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
