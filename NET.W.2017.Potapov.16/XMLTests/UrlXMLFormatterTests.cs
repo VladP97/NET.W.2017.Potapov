@@ -14,7 +14,7 @@ namespace XML.Tests
         [TestMethod()]
         public void CreateNewXMLFile()
         {
-            UrlXMLFormatter uxf = new UrlXMLFormatter("test.xml", "https://github.com/AnzhelikaKravchuk?tab=repositories");
+            UrlXMLFormatter uxf = new UrlXMLFormatter("test.xml", "test.txt");
         }
     }
 }
