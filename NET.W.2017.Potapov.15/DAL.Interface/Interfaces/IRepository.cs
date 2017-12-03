@@ -8,8 +8,10 @@ namespace DAL.Interface.Interfaces
 {
     public interface IRepository<T>
     {
-        void SaveToFile(T objectToSave);
-
-        IEnumerable<object> LoadFromFile();
+        IEnumerable<T> GetAll();
+        T Get(int id);
+        void Create(T item);
+        void Update(T item);
+        void Delete(int id);
     }
 }

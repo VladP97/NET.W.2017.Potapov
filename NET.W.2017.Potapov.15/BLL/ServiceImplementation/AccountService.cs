@@ -4,42 +4,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BLL.Interface.Interfaces;
-using BLL.Interface.Entities;
+using DAL.Interface.Interfaces;
+using DAL.Interface.DTO;
+using DAL.Model;
 
 namespace BLL.ServiceImplementation
 {
     public class AccountService : IAccountService
     {
-        private List<Account> accountList = new List<Account>();
-        private IBonusAlgorithm bonusAlgorithm;
+        public IUnitOfWork DB { get; set; }
 
-        public AccountService(IBonusAlgorithm bonusAlgorithm)
+        public AccountService(IUnitOfWork db)
         {
-            this.bonusAlgorithm = bonusAlgorithm;
+            DB = db;
         }
 
-        public void OpenAccount(string accountOwener, AccountType type, IAccountNumberCreateService creator)
+        public void OpenAccount(AccountDTO dto)
         {
-            accountList.Add(new Account(creator.GenerateAccountNumber(accountList), accountOwener, type));
+            Account newAcc = new Account { AccountOwner = dto.AccountOwner, Balance = dto.Balance, Bonus = dto.Bonus, AccountType = dto.TypeId };
+            DB.Accounts.Create(newAcc);
+            DB.Save();
         }
 
-        public void DepositAccount(int accountNumber, decimal sum)
-        {
-            Account acc = accountList.Find(account => account.AccountNumber == accountNumber);
-            acc.Balance += sum;
-            acc.Bonus += bonusAlgorithm.GetBonus(sum, acc.BonusIncrease);
+        public void CloseAccount(int id)
+        {         
+            DB.Accounts.Delete(id);
+            DB.Save();
         }
 
-        public IEnumerable<Account> GetAllAccounts()
+        public void Deposit(int id, decimal sum)
         {
-            return accountList;
+            List<Account> accounts = DB.Accounts.GetAll().ToList();
+            foreach (var account in accounts)
+            {
+                if (account.AccountId == id)
+                {
+                    account.Balance += sum;
+                    account.Bonus += account.AccountType.BonusIncrease;
+                }
+            }
+            DB.Save();
         }
 
-        public void WithdrawAccount(int accountNumber, decimal sum)
+        public void Withdraw(int id, decimal sum)
         {
-            Account acc = accountList.Find(account => account.AccountNumber == accountNumber);
-            acc.Balance -= sum;
-            acc.Bonus -= bonusAlgorithm.GetBonus(sum, acc.BonusDecrease);
+            List<Account> accounts = DB.Accounts.GetAll().ToList();
+            foreach (var account in accounts)
+            {
+                if (account.AccountId == id)
+                {
+                    account.Balance -= sum;
+                    account.Bonus -= account.AccountType.BonusDecrease;
+                }
+            }
+            DB.Save();
         }
     }
 }

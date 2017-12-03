@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
-using BLL.Interface.Entities;
 using BLL.Interface.Interfaces;
 using DependencyResolver;
 using Ninject;
+using DAL.Model;
+using DAL.Interface.DTO;
 
 namespace ConsolePL
 {
@@ -19,40 +20,12 @@ namespace ConsolePL
 
         static void Main(string[] args)
         {
-            IAccountService service = resolver.Get<IAccountService>();
-
-            IAccountNumberCreateService creator = resolver.Get<IAccountNumberCreateService>();
-
-            AccountType baseAccount = resolver.Get<Base>();
-            AccountType goldAccount = resolver.Get<Gold>();
-
-            service.OpenAccount("Account owner 1", baseAccount, creator);
-            service.OpenAccount("Account owner 2", baseAccount, creator);
-            service.OpenAccount("Account owner 3", goldAccount, creator);
-            service.OpenAccount("Account owner 4", baseAccount, creator);
-
-            var creditNumbers = service.GetAllAccounts().Select(acc => acc.AccountNumber).ToArray();
-
-            foreach (var t in creditNumbers)
-            {
-                service.DepositAccount(t, 100);
-            }
-
-            foreach (var item in service.GetAllAccounts())
-            {
-                Console.WriteLine(item);
-            }
-
-            foreach (var t in creditNumbers)
-            {
-                service.WithdrawAccount(t, 10);
-            }
-
-            foreach (var item in service.GetAllAccounts())
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadLine();
+            AccountType baseAccount = new AccountType { BonusDecrease = 10, BonusIncrease = 10, Name = "Base" };
+            IAccountService accountService = resolver.Get<IAccountService>();
+            accountService.OpenAccount(new AccountDTO { AccountId = 1, AccountOwner = "Owener 1", Balance = 0, Bonus = 0, TypeId = baseAccount });
+            accountService.OpenAccount(new AccountDTO { AccountId = 2, AccountOwner = "Owener 2", Balance = 0, Bonus = 0, TypeId = baseAccount });
+            accountService.Deposit(1, 100);
+            accountService.Deposit(2, 100);
         }
     }
 }

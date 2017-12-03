@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BLL.Interface.Entities;
+using DAL.Interface.DTO;
 
 namespace BLL.Interface.Interfaces
 {
     public interface IAccountService
     {
-        void OpenAccount(string accountOwener, AccountType type, IAccountNumberCreateService creator);
+        void OpenAccount(AccountDTO account);
 
-        void DepositAccount(int accountNumber, decimal sum);
+        void CloseAccount(int account);
 
-        void WithdrawAccount(int accountNumber, decimal sum);
+        void Deposit(int id, decimal sum);
 
-        IEnumerable<Account> GetAllAccounts();
+        void Withdraw(int id, decimal sum);
     }
 }
